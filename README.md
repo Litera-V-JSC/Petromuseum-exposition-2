@@ -1,18 +1,14 @@
 # Exposition main app
 
-## Available Scripts
+## Build
+`
+npm install && npm build
+`
 
-In the project directory, you can run:
+## Runnning
+* `npm run start` - start in dev mode
+* If you want to launch compiled binary, go to dist/ and find it there (location depends on OS, but usually in win-unpacked or linux-unpacked) and launch by double click
 
-### `npm run  start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production (builds react to build/ and electron to dist/).\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Supported OS
+* Windows 10/11
+* Linux - any distro officially supported by Electron
